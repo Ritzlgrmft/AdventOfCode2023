@@ -4,7 +4,7 @@ namespace AdventOfCode2023.Day3b;
 
 public class Worker : IWorker
 {
-    public int DoWork(string inputFile)
+    public long DoWork(string inputFile)
     {
         var numbers = new List<Number>();
         var symbols = new List<Symbol>();

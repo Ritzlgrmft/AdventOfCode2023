@@ -4,7 +4,7 @@ namespace AdventOfCode2023.Day2b;
 
 public class Worker : IWorker
 {
-    public int DoWork(string inputFile)
+    public long DoWork(string inputFile)
     {
         var games = new List<Game>();
         foreach (var line in File.ReadLines(inputFile))
@@ -43,9 +43,6 @@ public class Worker : IWorker
             games.Add(game);
         }
 
-        var maxRed = 12;
-        var maxGreen = 13;
-        var maxBlue = 14;
         var sum = 0;
         foreach (var game in games)
         {

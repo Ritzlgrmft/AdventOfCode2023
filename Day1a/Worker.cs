@@ -2,7 +2,7 @@
 
 public class Worker : IWorker
 {
-    public int DoWork(string inputFile)
+    public long DoWork(string inputFile)
     {
         var sum = 0;
         foreach (var line in File.ReadLines(inputFile))

@@ -4,7 +4,7 @@ namespace AdventOfCode2023.Day4b;
 
 public class Worker : IWorker
 {
-    public int DoWork(string inputFile)
+    public long DoWork(string inputFile)
     {
         var cards = new List<Card>();
         foreach (var line in File.ReadLines(inputFile))

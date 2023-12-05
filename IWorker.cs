@@ -2,5 +2,5 @@
 
 public interface IWorker
 {
-    int DoWork(string inputFile);
+    long DoWork(string inputFile);
 }
