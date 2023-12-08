@@ -1,6 +1,4 @@
-﻿using System.Dynamic;
-
-namespace AdventOfCode2023.Day7b;
+﻿namespace AdventOfCode2023.Day7b;
 
 public class Worker : IWorker
 {

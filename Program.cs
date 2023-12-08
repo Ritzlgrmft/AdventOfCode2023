@@ -1,5 +1,4 @@
-﻿using System.Net.WebSockets;
-using AdventOfCode2023;
+﻿using AdventOfCode2023;
 
 if (args.Length < 2)
 {
