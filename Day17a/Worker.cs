@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-using System.Data;
-using System.Net.Mail;
+﻿using System.Data;
 
 namespace AdventOfCode2023.Day17a;
 
