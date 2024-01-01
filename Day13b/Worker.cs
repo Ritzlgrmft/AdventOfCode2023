@@ -24,7 +24,6 @@ public class Worker : IWorker
 
         // analyze notes
         var sum = 0L;
-        var x = 1;
         foreach (var item in notes)
         {
             var isFixed = false;
